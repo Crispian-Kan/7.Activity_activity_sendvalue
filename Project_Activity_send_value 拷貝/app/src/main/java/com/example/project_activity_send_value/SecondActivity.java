@@ -17,13 +17,13 @@ public class SecondActivity extends AppCompatActivity {
 
         text_A();
     }
-    public void clickBtoA(View v){
+    public void intentBtoA(View v){
 
-        EditText edit_B = (EditText)findViewById(R.id.editV2);
+        EditText input_B = (EditText)findViewById(R.id.input_b);
 
         Intent intent = new Intent(this, MainActivity.class);
         Bundle bundle = new Bundle();
-        bundle.putString("R", edit_B.getText().toString());
+        bundle.putString("R", input_B.getText().toString());
         intent.putExtras(bundle);
         startActivity(intent);
     }
@@ -33,8 +33,8 @@ public class SecondActivity extends AppCompatActivity {
         if (bundle != null) {
             A1 = Integer.parseInt(bundle.getString("T"));
 
-            TextView A = (TextView)findViewById(R.id.valueStr);
-            A.setText(Integer.toString(A1));
+            TextView A_value = (TextView)findViewById(R.id.valueStr);
+            A_value.setText(Integer.toString(A1));
         }
     }
 }

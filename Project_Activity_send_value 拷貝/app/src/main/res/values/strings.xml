@@ -2,9 +2,9 @@
     <string name="app_name">Project_Activity_send_value</string>
     <string name="Hw7_pageA">A 頁面</string>
     <string name="Hw7_pageB">B 頁面</string>
-    <string name="Hw7_pageAtoB">切換 B 頁面</string>
-    <string name="Hw7_pageBtoA">切換 A 頁面</string>
-    <string name="Hw7_input">請輸入數值: </string>
-    <string name="Hw7_pageBInput">B 頁面輸入數值</string>
-    <string name="Hw7_pageAInput">A 頁面輸入數值</string>
+    <string name="A_to_B">切換 B 頁面</string>
+    <string name="B_to_A">切換 A 頁面</string>
+    <string name="input">請輸入數值: </string>
+    <string name="from_BInput">B 頁面輸入數值</string>
+    <string name="from_AInput">A 頁面輸入數值</string>
 </resources>
